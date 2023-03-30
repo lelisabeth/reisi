@@ -1,0 +1,394 @@
+body {
+margin:0%;
+padding: 0;
+}
+    
+a {
+text-decoration: none;
+}
+    
+a :visited {
+text-decoration: none;
+}
+
+h1 {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+color: #002343;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #002343;
+    height: 141px;
+    }
+
+#reisi {
+    padding-left: 45px;
+    font-family: 'Nova Slim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navlinks {
+    display: flex;
+    align-content: center;
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .navlinks a {
+    margin: 6px;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+    
+    .navlinks a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+    }
+    
+    .navlinks a:visited {
+    color: #FFFFFF;
+    }
+    
+    #logisisse {
+    padding-right: 45px;
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    text-align: right;
+    color: #FFFFFF;
+    background-color: #002343;
+    border: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+.dropdown-menu {
+padding: 15px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(180, 219, 255, 0.45);
+    padding: 20px;
+    margin-top: 90px;
+    }
+    
+    #kontaktid h1 {
+    margin: 5px;
+    font-size: 32px;
+    text-align: center;
+    color: #002343;
+    font-weight: bold;
+    }
+    
+    #kontaktid p {
+    margin: 0;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #002343;
+    }
+    
+    .sotsmeedia {
+    margin: 15px;
+    }
+    
+    .rida1 {
+    margin: 25px;
+    }
+    .rida2 {
+    margin: 25px;
+    }
+
+/* planeerima */
+
+#planeerireis {
+font-size: 64px;
+text-align: center;
+margin-top: 50px;
+margin-bottom: 30px;
+color: #002343;
+}
+
+#asukohad {
+display: flex;
+justify-content: center;
+background: rgba(180, 219, 255, 0.35);
+border-radius: 5px;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+#asukohtrida1 {
+display: flex;
+flex-direction: column;
+padding: 10px;
+margin: 30px;
+}
+
+#asukohtrida2 {
+display: flex;
+flex-direction: column;
+padding: 10px;
+margin: 30px;
+}
+
+#asukohtrida2 img {
+padding-top: 5px;
+}
+
+.slkast {
+width: 300px;
+height: 50px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+border-radius: 25px;
+border: none;
+}
+
+#kuupaev {
+margin-top: 50px;
+padding-right: 10px;
+}
+
+#tapsemotsing {
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #002343;
+    background: none;
+    border: none;
+    padding-top: 70px;;
+}
+
+#otsi {
+    text-align: center;
+    background: #002343;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+    height: 50px;
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+#tulemused {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #002343;
+    text-align: center;
+    padding-top: 55px; 
+    padding-bottom: 25px;;
+}
+
+.tulemused1 {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+background: #F4F1EC;
+margin-right: 10%;
+margin-left: 10%;
+border-radius: 5px;
+padding: 20px;
+}
+
+.tulemused1 p{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+text-align: center;
+color: #002343;
+}
+
+.raha {
+background-color:#FFFFFF;
+border-radius: 25px;
+width: 80px;
+padding: 2px;
+}
+
+.lisakorvi {
+text-align: center;
+background: #002343;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border: none;
+border-radius: 25px;
+width: 140px;
+height: 40px;
+font-family: 'Jacques Francois';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #FFFFFF;
+}
+
+#rong {
+margin-top: 32px;
+margin-bottom: 32px;
+}
+
+/* ostukorv */
+
+#ostukorv {
+font-size: 64px;
+text-align: center;
+margin-top: 50px;
+margin-bottom: 80px;
+color: #002343;
+}
+
+.valikud1{
+display: flex;
+flex-direction: row;
+}
+
+.ostukontaktid {
+width: 659px;
+background: #F3EFEA;
+margin-left: 5%;
+}
+
+.nimed {
+    width: 280px;
+    height: 50px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.65);
+    border-radius: 25px;
+    border: none;
+    margin: 20px;
+    padding-left: 15px;
+    }
+
+.kontaktidostukorvis {
+background: rgba(180, 219, 255, 0.45);
+border: 3px solid #002343;
+text-align: center;
+padding: 20px;
+}
+
+.ostukorvisisu {
+width: 500px;
+background: #F3EFEA;
+margin-right: 5%;
+margin-left: 80px;
+}
+
+.ostukorvisisu p{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color:#6F6C69
+}
+
+.summa{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 20px;
+}
+
+#valitudteekond {
+display: flex;
+flex-direction: row;
+background: rgba(202, 198, 193, 0.5);
+border-radius: 25px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+margin-bottom: 10px;
+}
+
+#valitudteekond p{
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.row1 {
+display: flex;
+flex-direction: column;
+}
+
+.row2 {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 10px;
+}
+
+#eemalda{
+margin-bottom: 10px;
+text-align: center;
+background: #002343;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border: none;
+border-radius: 25px;
+width: 90px;
+height: 50px;
+font-family: 'Jacques Francois';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #FFFFFF;
+}
+
+#aadress {
+width: 595px;
+}
+
+.tingimused {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #002343;
+width: 500px;
+background: #F3EFEA;
+margin-right: 5%;
+margin-left: 80px;
+}
+
+#nous {
+padding-top: 60px;
+}

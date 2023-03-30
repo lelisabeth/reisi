@@ -1,0 +1,359 @@
+body {
+margin:0%;
+padding: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+a :visited {
+text-decoration: none;
+}
+
+h1 {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+color: #002343;
+}
+
+header {
+display:flex;
+justify-content: space-between;
+align-items: center;
+background: #002343;
+height: 140px;
+}
+
+#reisi {
+padding-left: 45px;
+font-family: 'Nova Slim';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navlinks {
+font-family: 'Jacques Francois';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+text-align: center;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navlinks a {
+margin: 6px;
+color: #FFFFFF;
+}
+
+.navlinks a:hover {
+text-decoration: underline;
+color: #FFFFFF;
+}
+
+.navlinks a:visited {
+color: #FFFFFF;
+}
+
+#logisisse {
+padding-right: 45px;
+font-family: 'Jacques Francois';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+text-align: right;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner {
+background: url(banner.png);
+height: auto;
+padding: 0;
+margin: 0;
+}
+
+#bannerlause {
+margin: 0;
+padding-top: 80px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+text-align: center;
+color:#002343;
+} 
+
+#bannerkirjeldus {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #002343;
+width: 45%;
+margin: auto;
+} 
+
+#punktid {
+padding-top: 120px;
+padding-bottom: 80px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #002343;
+} 
+
+#punktid span {
+margin: 5px;
+}
+
+#kastid3 {
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: -40px;
+}
+
+.kastid {
+background-color: #F3EFEA;
+border: 3px solid;
+border-color:#002343;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.kastid h1 {
+text-align: center;
+}
+
+.kastid p {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #002343;
+width: 80%;
+margin: auto;
+padding-bottom: 30px;
+}
+
+#kusimused {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+#kusimused h1 {
+font-size: 36px;
+text-align: center;
+margin-top: 90px;
+}
+
+.sisestatekst {
+font-family: 'Playfair Display';
+font-weight: 400;
+font-size: 32px;
+color: #908D8A;
+padding: 25px;
+resize: none;
+width: 800px;
+height: 290px;
+border: none;
+outline: none;
+background: #F4F1EC;
+}
+
+#edasta {
+align-items: flex-end;
+text-align: center;
+background: #002343;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border: none;
+border-radius: 25px;
+width: 200px;
+height: 55px;
+font-family: 'Jacques Francois';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+color: #FFFFFF;
+margin-bottom: 90px;
+}
+
+footer {
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: rgba(180, 219, 255, 0.45);
+padding: 20px;
+}
+
+#kontaktid h1 {
+margin: 5px;
+font-size: 32px;
+text-align: center;
+}
+
+#kontaktid p {
+margin: 0;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+color: #002343;
+}
+
+.sotsmeedia {
+margin: 15px;
+}
+
+.rida1 {
+margin: 25px;
+}
+.rida2 {
+margin: 25px;
+}
+
+/* logi sisse */
+
+.sisselogimine {
+display:flex;
+flex-direction: row;
+width: 100%;
+margin: 0px;
+}
+
+
+.olemasolevkonto {
+background-color: #F3EFEA;
+width: 60%;
+}
+
+.olemasolevkonto h1{
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 160px;
+}
+
+#kasutajaparool {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slkast{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 20px;
+    padding-left: 25px;
+    border-radius: 25px;
+    border: none;
+    width: 525px;
+    height: 74px;
+}
+
+
+#kasutajaparool p{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: rgba(0, 0, 0, 0.65);
+margin-block-end: 0em;
+}
+
+#kasutajaparool a {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration-line: underline;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+#ctalogisisse {
+    text-align: center;
+    background: #002343;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 55px;
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+
+.uuskonto {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 40%;
+}
+
+.uuskonto h1 {
+font-family: 'Jacques Francois';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+text-align: center;
+margin-top: 160px;
+margin-block-end: 0em;
+padding-left: 40px;
+padding-right: 40px;
+}
+
+.uuskonto p {
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+text-align: center;
+color: #002343;
+padding-left: 70px;
+padding-right: 70px;
+}
+
+#registreeru {
+    text-align: center;
+    background: #002343;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 55px;
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-bottom: 270px;
+}
+
+
